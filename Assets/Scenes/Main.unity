@@ -330,8 +330,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -128.07442, y: 38.79706}
-  m_SizeDelta: {x: 139.33, y: 108.4059}
+  m_AnchoredPosition: {x: -127.5652, y: 0.00015830994}
+  m_SizeDelta: {x: 144.3996, y: 132.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &399439687
 AudioSource:
@@ -344,7 +344,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -444,7 +444,7 @@ MonoBehaviour:
   onInteracted:
     m_PersistentCalls:
       m_Calls: []
-  sound: {fileID: 8300000, guid: c54d89d13f5094e4eb0e84fa9db562c1, type: 3}
+  sound: {fileID: 8300000, guid: c8c8038f794be4c3fbd8538de297d91e, type: 3}
   soundCollection: {fileID: 0}
 --- !u!114 &399439689
 MonoBehaviour:
@@ -468,11 +468,11 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
+    m_ColorMultiplier: 2.23
     m_FadeDuration: 0.1
   m_SpriteState:
     m_HighlightedSprite: {fileID: 0}
@@ -921,7 +921,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1046,7 +1046,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1141,10 +1141,10 @@ RectTransform:
   m_Father: {fileID: 1671068668}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 159.033, y: 42.515}
-  m_SizeDelta: {x: 77.4118, y: 115.84}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 160.19579, y: 0}
+  m_SizeDelta: {x: -320.3914, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!82 &789418973
 AudioSource:
@@ -1157,7 +1157,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1257,7 +1257,7 @@ MonoBehaviour:
   onInteracted:
     m_PersistentCalls:
       m_Calls: []
-  sound: {fileID: 8300000, guid: c54d89d13f5094e4eb0e84fa9db562c1, type: 3}
+  sound: {fileID: 8300000, guid: 6401ccb4316ce4cc79fa927777d90dd3, type: 3}
   soundCollection: {fileID: 0}
 --- !u!114 &789418975
 MonoBehaviour:
@@ -1282,7 +1282,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1350,7 +1350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 877728770}
-  - component: {fileID: 877728774}
+  - component: {fileID: 877728776}
   - component: {fileID: 877728773}
   - component: {fileID: 877728772}
   - component: {fileID: 877728771}
@@ -1405,7 +1405,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1464,23 +1464,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 877728769}
   m_CullTransparentMesh: 1
---- !u!114 &877728774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 877728769}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 75b168fa82cac4031a02eb11d12810b9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  onInteracted:
-    m_PersistentCalls:
-      m_Calls: []
-  sound: {fileID: 0}
-  soundCollection: {fileID: 11400000, guid: ade1e8ef4c4844013bc563c17a41b31d, type: 2}
 --- !u!82 &877728775
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1492,10 +1475,10 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -1577,6 +1560,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &877728776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 877728769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccc9864c61cb3424b8b73268e2e557cd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onInteracted:
+    m_PersistentCalls:
+      m_Calls: []
+  sound: {fileID: 0}
+  soundCollection: {fileID: 11400000, guid: ade1e8ef4c4844013bc563c17a41b31d, type: 2}
 --- !u!1 &1125344865
 GameObject:
   m_ObjectHideFlags: 0
@@ -1691,7 +1691,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -1816,7 +1816,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1912,8 +1912,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 269.5894, y: -137}
-  m_SizeDelta: {x: 395.4788, y: 200.8703}
+  m_AnchoredPosition: {x: 267.56155, y: -103.03447}
+  m_SizeDelta: {x: 399.5344, y: 132.9393}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1671068669
 MonoBehaviour:
@@ -1927,9 +1927,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 873ff0e489d58471a93e8aebd331a224, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactives:
-  - {fileID: 399439688}
-  - {fileID: 789418974}
 --- !u!82 &1671068670
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2078,7 +2075,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -2203,7 +2200,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
