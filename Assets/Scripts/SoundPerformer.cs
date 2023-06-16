@@ -1,10 +1,9 @@
-using System;
 using UnityEngine;
 
 namespace hYu
 {
     [RequireComponent(typeof(AudioSource))]
-    public class SoundInteractive : Interactive
+    public class SoundPerformer : Performer
     {
         [SerializeField] AudioClip sound;
 
@@ -29,7 +28,7 @@ namespace hYu
                 playCollection = true;
         }
 
-        public override void Run()
+        public override void Perform()
         {
             Debug.Log($"Running: {name}");
 

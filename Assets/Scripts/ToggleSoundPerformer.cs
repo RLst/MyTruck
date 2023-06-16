@@ -3,10 +3,9 @@ using UnityEngine;
 namespace hYu
 {
     [RequireComponent(typeof(AudioSource))]
-    public class ToggleSoundInteractive : Interactive
+    public class ToggleSoundPerformer : Performer
     {
         [SerializeField] AudioClip sound;
-
         [Space]
         [SerializeField] AudioCollection soundCollection;
 
@@ -29,8 +28,9 @@ namespace hYu
                 playCollection = true;
         }
 
-        public override void Run()
+        public override void Perform()
         {
+            // base
             if (audioSource.isPlaying)
             {
                 audioSource.Stop();
