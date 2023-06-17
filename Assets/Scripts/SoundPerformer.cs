@@ -2,6 +2,7 @@ using UnityEngine;
 
 namespace hYu
 {
+
     [RequireComponent(typeof(AudioSource))]
     public class SoundPerformer : Performer
     {
@@ -30,7 +31,7 @@ namespace hYu
 
         public override void Perform()
         {
-            Debug.Log($"Running: {name}");
+            // Debug.Log($"Running: {name}");
 
             //Stop any current playing sound and play new one
             audioSource.Stop();
