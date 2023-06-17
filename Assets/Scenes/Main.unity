@@ -2882,4 +2882,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerName: {fileID: 11400000, guid: 9926159c23f7b4a70aa100d9df8f5af5, type: 2}
   prefix: "Xe t\u1EA3i c\u1EE7a "
+  defaultName: "S\xFAp"
   postfix: 

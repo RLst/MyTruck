@@ -2,7 +2,6 @@ using UnityEngine;
 
 namespace hYu
 {
-
     [RequireComponent(typeof(AudioSource))]
     public class SoundPerformer : Performer
     {
